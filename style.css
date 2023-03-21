@@ -1,0 +1,91 @@
+.timer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(116, 240, 240) ;
+    font-size: 75px;
+    font-weight: 200px;
+    align-items: center;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+body {
+    display: flex;
+    background-color: rgb(91, 192, 235);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 500px;
+    background-color: rgb(116, 240, 240);
+    border: 3px solid black;
+    border-radius: 2rem;
+    height: 450px;
+}
+
+.wrapper h1 {
+    font-size: 42px;
+    font-weight: 500px;
+    padding: 20px 25px;
+    border-bottom: 1px solid #0b0b0b;
+    text-align: center;
+}
+
+.wrapper h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500px;
+}
+
+.wrapper .context {
+    margin: 25px 25px 35px;
+}
+
+.context .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputs input {
+    height: 57px;
+    width: 56px;
+    margin: 4px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: #0b0b0b;
+    text-transform: uppercase;
+}
+
+.inputs input:first-child {
+    margin-left: 0;
+}
+
+.details p {
+    font-size: 32px;
+    text-align: left;
+    color: rgb(3, 3, 3);
+}
+
+.details p span {
+    color: rgb(3, 3, 3) ;
+    font-size: 26px;
+}
+
+
+.reset-Btn {
+    position: relative;
+    left: 175px;
+    background-color:rgb(91, 192, 235);
+    color: black;
+    border: 2px solid black;
+}
+
